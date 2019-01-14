@@ -6,6 +6,7 @@ INSERT INTO ARTISTA VALUES ('Foster the People', 'Brasil');
 INSERT INTO ALBUM VALUES('Torches', 'Foster the People', 'Rock', '2001');
 INSERT INTO ALBUM VALUES('Hamptons', 'Drake', 'Rap', '2018');
 INSERT INTO ALBUM VALUES('Magic', 'Kurt Cobain', 'Hard Rock', '2012');
+INSERT INTO ALBUM VALUES('The Home Recordings', 'Kurt Cobain', 'Rock', '1997')
 INSERT INTO ALBUM VALUES('Scorpion', 'Post Malone', 'Rap', '2017');
 
 INSERT INTO PLAYLIST VALUES('Mixtape #1', 'Crepschi');

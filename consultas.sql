@@ -30,3 +30,6 @@ SELECT * FROM MUSICA;
 
 -- Consulta 14
 SELECT * FROM MUSICA WHERE nomepl = <playlist>;
+
+--consulta extra, conta numero de albuns de determinado artista, utilizando a view
+SELECT * from NUMERO_ALBUNS
