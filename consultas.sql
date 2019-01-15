@@ -2,7 +2,7 @@
 SELECT * FROM ALBUM WHERE genero = <genero>;
 
 -- Consulta 2
-
+SELECT AVG(cnt) FROM (SELECT COUNT(*) AS cnt, tituloalbum FROM musica GROUP BY tituloalbum) AS medias
 
 -- Consulta 3
 SELECT * FROM MUSICA WHERE tituloalbum = <album>;
