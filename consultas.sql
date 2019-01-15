@@ -2,13 +2,13 @@
 SELECT * FROM ALBUM WHERE genero = <genero>;
 
 -- Consulta 2
-SELECT AVG(cnt) FROM (SELECT COUNT(*) AS cnt, tituloalbum FROM musica GROUP BY tituloalbum) AS medias
+SELECT AVG(cnt) FROM (SELECT COUNT(*) AS cnt, tituloalbum FROM musica GROUP BY tituloalbum) AS medias;
 
 -- Consulta 3
 SELECT * FROM MUSICA WHERE tituloalbum = <album>;
 
 -- Consulta 4
-SELECT nomeartista FROM ALBUM WHERE titulomusica = <musica>;
+SELECT ALBUM.nomeartista FROM ALBUM, MUSICA WHERE MUSICA.tituloalbum = ALBUM.tituloalbum AND MUSICA.titulomusica = <musica>;
 
 -- Consulta 5
 SELECT faixa FROM MUSICA WHERE titulomusica = <musica>;
@@ -22,8 +22,8 @@ SELECT * FROM ALBUM WHERE nomeartista = <nome>;
 -- Consulta 8
 SELECT DISTINCT titulomusica FROM MUSICA, ALBUM, ARTISTA WHERE MUSICA.tituloalbum = ALBUM.tituloalbum AND ALBUM.nomeartista = <nome>;
 
--- Consulta 9
-SELECT * FROM ALBUM WHERE tituloalbum = <album>;
+-- Consulta 9 --listar artistas com albuns lançados em determinado ano
+SELECT ARTISTA.nome FROM ALBUM, ARTISTA WHERE ARTISTA.nome = ALBUM.nomeartista AND ALBUM.anodelancamento = <ano>;
 
 -- Consulta 10
 SELECT COUNT(*) FROM ALBUM;
@@ -44,4 +44,4 @@ SELECT * FROM MUSICA WHERE nomepl = <playlist>;
 SELECT PLAYLIST.nomepl AS Playlist, COUNT(*) AS Numero_Musicas FROM MUSICA, PLAYLIST WHERE MUSICA.nomepl = PLAYLIST.nomepl GROUP BY PLAYLIST.nomepl;
 
 -- Consulta 16, conta numero de albuns de determinado artista, utilizando a view
-SELECT * from NUMERO_ALBUNS
+SELECT * from NUMERO_ALBUNS;
