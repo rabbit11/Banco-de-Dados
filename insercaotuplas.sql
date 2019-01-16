@@ -1,22 +1,53 @@
 INSERT INTO ARTISTA VALUES('Kurt Cobain', 'Inglaterra');
 INSERT INTO ARTISTA VALUES('Drake', 'Alemanha');
 INSERT INTO ARTISTA VALUES('Post Malone', 'Australia');
-INSERT INTO ARTISTA VALUES ('Foster the People', 'Brasil');
+INSERT INTO ARTISTA VALUES('Foster the People', 'Brasil');
+INSERT INTO ARTISTA VALUES('Linkin Park', 'Estados Unidos');
+INSERT INTO ARTISTA VALUES('Arctic Monkeys', 'Inglaterra');
+INSERT INTO ARTISTA VALUES('Cage the Elephant', 'Estados Unidos');
+INSERT INTO ARTISTA VALUES('Imagine Dragons', 'Estados Unidos');
+INSERT INTO ARTISTA VALUES('Queen', 'Inglaterra');
+INSERT INTO ARTISTA VALUES('Aurora', 'Noruega');
 
-INSERT INTO ALBUM VALUES('Torches', 'Foster the People', 'Rock', '2001');
-INSERT INTO ALBUM VALUES('Hamptons', 'Drake', 'Rap', '2018');
 INSERT INTO ALBUM VALUES('Magic', 'Kurt Cobain', 'Hard Rock', '2012');
 INSERT INTO ALBUM VALUES('The Home Recordings', 'Kurt Cobain', 'Rock', '1997');
+INSERT INTO ALBUM VALUES('Hamptons', 'Drake', 'Rap', '2018');
 INSERT INTO ALBUM VALUES('Scorpion', 'Post Malone', 'Rap', '2017');
+INSERT INTO ALBUM VALUES('Torches', 'Foster the People', 'Rock', '2001');
+INSERT INTO ALBUM VALUES('Meteora', 'Linkin Park', 'Rock', '2003');
+INSERT INTO ALBUM VALUES('AM', 'Arctic Monkeys', 'Indie Rock', '2013');
+INSERT INTO ALBUM VALUES('Favourite Worst Nightmare', 'Arctic Monkeys', 'Indie Rock', '2007');
+INSERT INTO ALBUM VALUES('Unpeeled', 'Cage the Elephant', 'Indie Rock', '2017');
+INSERT INTO ALBUM VALUES('Origins', 'Imagine Dragons', 'Pop Rock', '2017');
+INSERT INTO ALBUM VALUES('A Night At The Opera', 'Queen', 'Rock', '1976');
+INSERT INTO ALBUM VALUES('All My Demons Greeting Me As A Friend', 'Aurora', 'Pop', '2016');
+INSERT INTO ALBUM VALUES('Infections Of A Different Kind', 'Aurora', 'Pop', '2018');
 
 INSERT INTO PLAYLIST VALUES('Mixtape #1', 'Crepschi');
 INSERT INTO PLAYLIST VALUES('Classicos de Natal', 'Crepschi Natalino');
 INSERT INTO PLAYLIST VALUES('Mixtape de Ferias', 'Natham de Ferias');
 INSERT INTO PLAYLIST VALUES('Hottest Mixtape', 'Pedro');
+INSERT INTO PLAYLIST VALUES('Churrasco com os amigos', 'Natham');
+INSERT INTO PLAYLIST VALUES('Festa na praia', 'Guilherme');
+INSERT INTO PLAYLIST VALUES('Para ouvir no trabalho', 'Vinicius');
+INSERT INTO PLAYLIST VALUES('Anos 2000', 'Bruno');
+INSERT INTO PLAYLIST VALUES('Anos 70', 'Leonardo');
+INSERT INTO PLAYLIST VALUES('Rock Internacional', 'Rafael');
 
 INSERT INTO MUSICA VALUES('Pumped up Kicks', 'Torches', 'Mixtape de Ferias', '3', '1');
 INSERT INTO MUSICA VALUES('I Got a Feeling', 'Hamptons', 'Classicos de Natal', '4', '1');
 INSERT INTO MUSICA VALUES('In My Feelings', 'Magic', 'Classicos de Natal', '2', '2');
 INSERT INTO MUSICA VALUES('Gods Plan', 'Scorpion', 'Mixtape #1', '17', '1');
 INSERT INTO MUSICA VALUES('Sandras Rose', 'Scorpion', 'Hottest Mixtape', '5', '2');
+INSERT INTO MUSICA VALUES('Numb', 'Meteora', 'Anos 2000', '3', '3');
+INSERT INTO MUSICA VALUES('Crawling', 'Meteora', 'Anos 2000', '3', '4');
+INSERT INTO MUSICA VALUES('Fluorescent Adolescent', 'AM', 'Rock Internacional', '4', '1');
+INSERT INTO MUSICA VALUES('Are U Mine', 'Favourite Worst Nightmare', 'Churrasco com os amigos', '4', '3');
+INSERT INTO MUSICA VALUES('Punching Bag', 'Unpeeled', 'Rock Internacional', '2', '1');
+INSERT INTO MUSICA VALUES('Radioactive', 'Origins', 'Rock Internacional', '4', '5');
+INSERT INTO MUSICA VALUES('Bohemian Rhapsody', 'A Night At The Opera', 'Anos 70', '7', '1');
+INSERT INTO MUSICA VALUES('Love Of My Life', 'A Night At The Opera', 'Anos 70', '4', '2');
+INSERT INTO MUSICA VALUES('Runaway', 'Infections Of A Different Kind', 'Para ouvir no trabalho', '3', '1');
+INSERT INTO MUSICA VALUES('Conqueror', 'Infections Of A Different Kind', 'Para ouvir no trabalho', '4', '3');
+INSERT INTO MUSICA VALUES('Warrior', 'All My Demons Greeting Me As A Friend', 'Festa na praia', '4', '2');
 
