@@ -12,7 +12,7 @@ CREATE OR REPLACE FUNCTION verifica_artista() RETURNS trigger AS $verifica_artis
 $verifica_artista$ LANGUAGE plpgsql;
 
 CREATE TRIGGER verifica_artista AFTER DELETE ON ALBUM
-   ON EACH ROW EXECUTE PROCEDURE verifica_artista();
+ 	FOR EACH ROW EXECUTE PROCEDURE verifica_artista();
 
 CREATE OR REPLACE FUNCTION verifica_musica() RETURNS trigger AS $verifica_musica$
     BEGIN
