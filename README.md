@@ -1,4 +1,4 @@
-# Banco-de-Dados
+# Databases-Class
 
 This repository refers to the project developed during a Databases class
 
